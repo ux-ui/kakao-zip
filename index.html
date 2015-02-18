@@ -1,10 +1,114 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="ko">
 <head>
 	<meta charset="UTF-8" />
-	<title>Document</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+	<title>KakaoTalk Theme Uploader</title>
 </head>
 <body>
-	<h1>Hello World!</h1>
+	<style type="text/css">
+		
+		@media print {
+		}
+		
+		body {
+			background-color: #ededed;	
+		}
+		
+		section {
+			padding: 5px;
+			background-color: #f1f1f1;	
+		}
+		
+		.table {
+			margin:0;
+			padding:0;
+			outline: 0;
+			border: 0;
+			width: 100%;
+			position: relative;
+			vertical-align: middle;
+			text-align: center;
+			border-collapse: separate;
+		}
+		
+		.table tfoot tr th,
+		.table tfoot tr td {
+			padding: 10px;
+			text-align: right;
+		}
+		
+		.table tfoot tr th input[type="button"],
+		.table tfoot tr th button {
+			width: 100%;
+			padding: 12px 8px;
+			outline: 0;
+			border: 1px solid #0099ee;
+			background: #00aaee;
+			color:#fff;
+			-webkit-appearance: none;
+		    -moz-appearance: none;
+		    appearance: none;
+		    vertical-align: middle;
+		}
+		
+		.table tfoot tr th input[type="button"]:hover,
+		.table tfoot tr th button:hover {
+			background: #00ccbb;
+			border: 1px solid #00bbaa;
+		}
+		
+		.table tfoot tr th input[type="button"]:active,
+		.table tfoot tr th button:active {
+			background: #00bbbb;
+			border: 1px solid #00bbaa;
+		}
+		
+		
+		.table-border {
+			border: 1px solid #f4f4f4;	
+		}
+		
+		.table-border tr th,
+		.table-border tr td {
+			border-bottom: 1px solid #e3e3e3;
+			padding: 10px 0;
+		}
+	</style>
+	<section id="wrap">
+	<h1>카카오톡 테마 업로더</h1>
+	<table class="table table-border" border="0">
+		<colgroup>
+			<col style="width: 4%; text-aling:center;">
+			<col style="width: 40%">
+			<col style="width: 14%">
+			<col style="width: 10%">
+		</colgroup>
+		<thead>
+			<tr>
+				<th><input type="checkbox"></th>
+				<th>파일명</th>
+				<th>크기</th>
+				<th>확장자</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><input type="checkbox"></td>
+				<td><a href="#" title="">thumbnail@2x.png</a></td>
+				<td>1.00kb</td>
+				<td>*.png</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<th colspan="4">
+					<input type="button" value="업로드">
+				</th>
+			</tr>
+		</tfoot>
+	</table>
+	</section>
 </body>
 </html>

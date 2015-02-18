@@ -1,0 +1,565 @@
+/*Manifest*/
+ManifestStyle{ 
+    -kakaotalk-theme-name: url('fb.kakao.ktheme');
+    -kakaotalk-theme-version: url('2.0.2');
+    -kakaotalk-theme-url: url('http://Untitl.ed');
+    -kakaotalk-author-name: url('Designer_A');
+}
+
+/* 프로필이미지 */
+DefaultProfileStyle1-V4{
+}
+
+/*네비게이션$바*/
+NavigationBarStyle1-V4{
+     -ios-background-image: url('bg_header.png');
+}
+
+NavigationItemTitleStyle1-V4{
+    -ios-text-color: #ffffff;
+    -ios-text-shadow-offset: 0px 0px;
+    -ios-text-shadow-color: #324a80;
+    -ios-text-shadow-alpha: 0.8;
+}
+
+/*새로운$메시지$알림$영역*/
+MessageNotificationBarBackgroundStyle1-V4 {
+    background-color: #3861a5;
+}
+
+MessageNotificationBarNameLabelStyle1-V4 {
+    -ios-text-color: #ffffff;
+    -ios-text-shadow-offset: 0px 0px;
+    -ios-text-shadow-color: #324a80;
+    -ios-text-shadow-alpha: 0.8;
+}
+
+MessageNotificationBarMessageLabelStyle1-V4 {
+    -ios-text-color: #ffffff;
+    -ios-text-shadow-offset: 0px 0px;
+    -ios-text-shadow-color: #324a80;
+    -ios-text-shadow-alpha: 0.8;
+}
+
+/*
+    Background
+*/
+
+BackgroundStyle1-V4 /* Common */
+{
+    background-color: #F6F7F9;
+}
+BackgroundStyle3-V4 /* 친구목록 */
+{
+    -ios-background-image: url('');
+    background-color: #ffffff; 
+}
+
+BackgroundStyle4-V4 /* 채팅목록 */
+{
+    -ios-background-image: url('');
+    background-color: #ffffff; 
+}
+
+BackgroundStyle5-V4 /* 채팅방 */
+{
+    -ios-background-image: url('bg_friends_section_title.png');
+    background-color: #ffffff; 
+}
+
+BackgroundStyle6-V4 /* 추천 */
+{
+    -ios-background-image: url('');
+    background-color: #ffffff; 
+}
+
+/* 131126 추가 */
+
+LabelStyle4
+{
+    -ios-text-color: #000000;
+    -ios-text-alpha: 1.0;
+    -ios-text-shadow-offset: 0px 1px;
+    -ios-text-shadow-color: #efeff4;
+    -ios-text-shadow-alpha: 0.7;
+} /* Khaki */
+
+
+/*
+    Button
+*/
+/* 채팅방 나가기 */
+ButtonStyle1-1
+{
+    -ios-background-image: url('btn_1_brown.png');
+    -ios-text-color: #ffffff;
+    -ios-text-alpha: 1.0;
+    -ios-text-shadow-offset: 0px -1px;
+    -ios-text-shadow-color: #000000;
+    -ios-text-shadow-alpha: 0.4;
+    -ios-title-edgeinsets: 1px 1px 1px 1px;
+}
+
+/* 자동친구추천 켜기 */
+ButtonStyle1-3
+{
+    -ios-background-image: url('btn_1_yellow.png');
+    -ios-text-color: #ffffff;
+    -ios-text-alpha: 1.0;
+    -ios-text-shadow-offset: 0px 1px;
+    -ios-text-shadow-color: #3861a5;
+    -ios-text-shadow-alpha: 0.7;
+    -ios-title-edgeinsets: 1px 1px 1px 1px;
+}
+
+/* 친구찾기에서 추가 버튼 */
+ButtonStyle5-1
+{
+    -ios-background-image: url('btn_n.png');
+    -ios-text-color: #3861a5;
+    -ios-text-alpha: 1.0;
+    -ios-text-shadow-offset: 0px 1px;
+    -ios-text-shadow-color: #ffffff;
+    -ios-text-shadow-alpha: 0.7; 
+    -ios-title-edgeinsets: 1px 1px 1px 1px;    
+}
+
+/* 네비게이션바 상단 왼쪽 버튼 */
+ButtonStyle6-1
+{
+    -ios-background-image: url('bg_transparent.png');
+    -ios-text-color: #3861a5;
+    -ios-text-shadow-offset: 0px -1px;
+    -ios-text-shadow-color: #f8f8f8;
+    -ios-text-shadow-alpha: 1.0;
+}
+
+/* 네비게이션바 상단 오른쪽 버튼 */
+ButtonStyle7-1
+{
+    -ios-background-image: url('btn_n.png');
+    -ios-text-color: #fff;
+    -ios-text-shadow-offset: 0px 1px;
+    -ios-text-shadow-color: #f8f8f8;
+    -ios-text-shadow-alpha: 0.3;
+}
+
+ButtonStyle7-2
+{
+    -ios-background-image: url('btn_n.png');
+    -ios-text-color: #fff;
+    -ios-text-alpha: 0.2;
+    -ios-text-shadow-offset: 0px 1px;
+    -ios-text-shadow-color: #f8f8f8;
+    -ios-text-shadow-alpha: 0.3;
+}
+
+ButtonStyle7-3
+{
+    -ios-background-image: url('btn_n.png');
+    -ios-text-color: #fff;
+    -ios-text-alpha: 0.2;
+    -ios-text-shadow-offset: 0px 1px;
+    -ios-text-shadow-color: #f8f8f8;
+    -ios-text-shadow-alpha: 0.3;
+}
+ButtonStyle7-4
+{
+    -ios-background-image: url('btn_n.png');
+    -ios-landscape-background-image: url('btn_n.png');
+    -ios-text-color: #fff;
+    -ios-text-alpha: 1.0;
+    -ios-text-shadow-offset: 0px -1px;
+    -ios-text-shadow-color: #f8f8f8;
+    -ios-text-shadow-alpha: 0.4;
+}
+
+ButtonStyle8-1
+{
+ -ios-background-image: url('btn_8_uncheck.png');
+}
+
+ ButtonStyle8-2
+{
+ -ios-background-image: url('btn_8_checked.png');
+}
+
+ButtonStyle8-3
+{
+    -ios-background-image: url('btn_8_uncheck.png');
+}
+ 
+ButtonStyle8-4
+{
+    -ios-background-image: url('btn_8_checked.png');
+}
+
+
+SearchBarStyle1
+{
+    -ios-background-image: url('bg_searchbar.png');
+    -ios-searchbar-textfield-background-image: url('input_search.png');
+    -ios-searchbar-textfield-leftview-image: url('ico_search.png');    
+}
+
+TableViewCellStyle1-1 /* 친구목록 */
+{
+    border-color: #c8c8c8;
+    -ios-normal-background-color: #FFFFFF;
+    -ios-normal-background-alpha: 0;
+
+    -ios-selected-background-color: #d9d9d9;
+    -ios-selected-background-alpha: 1.0;
+
+    -ios-newcomer-background-color: #d9d9d9;    
+    -ios-newcomer-background-aplha: 1.0;    
+
+    -ios-text-color: #000000;
+    -ios-highlight-text-color: #000000;
+    -ios-status-message-text-color: #929292;
+    -ios-status-message-text-edgeinsets: 5px 12px 0px 5px;    /* top, left, bottom, right */
+    -ios-status-message-background-image: url('pop_status.png') 20px 0px;
+}
+
+TableViewCellStyle2-1 /* Chat */
+{
+    border-color: #c8c8c8;
+    -ios-normal-background-color: #FFFFFF;
+    -ios-normal-background-alpha: 0;
+
+    -ios-selected-background-color: #d9d9d9;
+    -ios-selected-background-alpha: 1.0;
+
+    -ios-text-color: #000000;
+    -ios-time-text-color: #929292;
+    -ios-highlight-text-color: #000000;
+    -ios-detail-text-color: #929292;    /* last message */
+}
+
+TableViewCellStyle3-1 /* Grouped */
+{
+    -ios-normal-background-color: #e5e5e5;
+    -ios-text-color: #000000;
+    -ios-highlight-text-color: #ffffff;
+    
+    -ios-normal-background-image: url('bg_setting_cell_n_middle.png');
+    -ios-singlerow-background-image: url('bg_setting_cell_n.png') 23px 23px;
+    -ios-toprow-background-image: url('bg_setting_cell_n_top.png');
+    -ios-bottomrow-background-image: url('bg_setting_cell_n_bottom.png') 23px 23px;
+    
+    -ios-selected-background-image: url('bg_setting_cell_p_middle.png');
+    -ios-singlerow-selected-background-image: url('bg_setting_cell_p.png') 23px 23px;
+    -ios-toprow-selected-background-image: url('bg_setting_cell_p_top.png');
+    -ios-bottomrow-selected-background-image: url('bg_setting_cell_p_bottom.png') 23px 23px;
+    -ios-detail-text-color: #346bcd;    /* selected value */
+    -ios-accessory-image: url('ico_arrow_brown1.png');
+}
+
+TableViewCellStyle4-1 /* Default(Other) - default */
+{
+    border-color: #c8c8c8;
+    -ios-normal-background-color: #FFFFFF;
+    -ios-normal-background-alpha: 0.3;
+
+    -ios-selected-background-color: #c9c9ce;
+    -ios-selected-background-alpha: 0.85;
+
+    -ios-text-color: #000000;  
+    -ios-highlight-text-color: #000000;         
+    -ios-detail-text-color: #c9c9ce; 
+}
+
+TableViewCellStyle4-2 /* MemberCell */
+{
+    border-color: #c8c8c8;
+    -ios-normal-background-color: #FFFFFF;
+    -ios-normal-background-alpha: 0.3;
+
+    -ios-selected-background-color: #c9c9ce;
+    -ios-selected-background-alpha: 0.85;
+
+    -ios-text-color: #000000;  
+    -ios-highlight-text-color: #ffffff;         
+    -ios-detail-text-color: #c9c9ce; 
+}
+
+TableViewSectionHeaderStyle1 /*친구 목록 섹션 타이틀 영역*/
+{
+    /* use only one which either color or image. if use both, image will show only. */
+    /* background-color: #ffffff; */
+    -ios-text-color: #000000;
+    -ios-text-shadow-color: #ffffff;
+    -ios-text-shadow-offset: 0px -1px;
+    -ios-text-shadow-alpha: 1.0;
+    -ios-text-margin: 15px 0px;
+    -ios-background-image: url('bg_friends_section_title.png') 0 0;
+}
+
+TableViewSectionHeaderStyle2 /* 친구 추천 목록 */
+{
+    /* use only one which either color or image. if use both, image will show only. */
+    /* background-color: #ffffff; */
+    -ios-text-color: #000000;
+    -ios-text-shadow-color: #ffffff;
+    -ios-text-shadow-alpha: 1.0;
+    -ios-text-shadow-offset: 0px -1px;
+    -ios-text-margin: 15px 0px;
+    -ios-background-image: url('bg_friends_section_title.png');
+}
+
+/* More Style Starts */
+MoreBackgroundStyle1-V4
+{
+    background-color: #FFFFFF;
+}
+
+MoreCellStyle1-V4
+{
+    border-color: #c8c8c8;
+
+    -ios-text-color: #929292;
+    -ios-highlight-text-color: #c9c9cc;
+
+    -ios-normal-background-color: #FFFFFF;
+    -ios-selected-background-color: #c8c8c8;
+}
+
+MoreIconSetStyle1-V4
+{
+    -ios-account-icon-image: url('ico_more_account.png');
+    -ios-notice-icon-image: url('ico_more_notice.png');
+    -ios-settings-icon-image: url('ico_more_setting.png');
+    -ios-giftshop-icon-image: url('ico_more_giftshop.png');
+    -ios-itemstore-icon-image: url('ico_more_itemstore.png');
+    -ios-plusfriend-icon-image: url('ico_more_plusfriend.png');                    
+    -ios-gamecenter-icon-image: url('ico_more_game.png');
+    -ios-page-icon-image: url('ico_more_page.png');
+}
+/* More Style Ends */
+
+/* Passcode Style Starts */
+PasscodeBackgroundStyle1-V4
+{
+    -ios-background-image: url('bg_pass.png');
+}
+
+PasscodeTitleLabelStyle1-V4
+{
+    -ios-text-color: #000000;
+    -ios-text-shadow-offset: 0px 1px;
+    -ios-text-shadow-color: #fbfbfb;
+    -ios-text-shadow-alpha: 1.0;
+}
+
+PasscodeDescLabelStyle1-V4
+{
+    -ios-text-color: #000000;
+    -ios-text-shadow-offset: 0px 1px;
+    -ios-text-shadow-color: #e5e5e5;
+    -ios-text-shadow-alpha: 1.0;
+}
+
+PasscodeBulletAndKeypadStyle1-V4
+{
+    ios-keypad-background-color: #3861a5;
+    ios-keypad-normal-text-color: #000000;
+    ios-keypad-highlight-text-color: #FFFFFF;
+
+    -ios-keypad-cancel-normal-text-color: #000000;
+    -ios-keypad-cancel-normal-text-alpha: 1.0;
+    -ios-keypad-cancel-normal-image: url('');
+    -ios-keypad-back-normal-image: url('');
+
+    -ios-keypad-cancel-highlight-text-color: #000000;
+    -ios-keypad-cancel-highlight-text-alpha: 0.5;
+    -ios-keypad-cancel-highlight-image: url('');
+    -ios-keypad-blank-highlight-image: url('');
+}
+
+
+
+/* 
+=========================
+    채팅방 Style
+=========================
+*/
+
+BackgroundStyle5-V4 {
+    background-color: #efeff4;
+}
+
+ChatMessageCellStyle1-V4 {
+    -ios-background-image: url('pop_yellow.png') 22px 20px;
+    -ios-selected-background-image: url('pop_yellow_s.png') 22px 20px;
+    -ios-text-color: #FFFFFF;
+    -ios-selected-text-color: #cccccc;
+    -ios-title-edgeinsets: 9px 14px 9px 19px;  /* top, left, bottom, right */
+    -ios-image-edgeinsets: 9px 10px 9px 15px;  /* top, left, bottom, right */
+}
+
+ChatMessageCellStyle2-V4 {
+    -ios-background-image: url('pop_white.png') 22px 20px;
+    -ios-selected-background-image: url('pop_white_s.png') 22px 20px;
+    -ios-text-color: #000000;
+    -ios-selected-text-color: #000000;
+    -ios-title-edgeinsets: 9px 19px 9px 14px;  /* top, left, bottom, right */
+    -ios-image-edgeinsets: 9px 15px 9px 10px;  /* top, left, bottom, right */
+}
+
+ChatInputBarStyle1-V4
+{
+    -ios-background-image: url('bg_chat_inputbar.png');
+}
+
+/* SendButton */
+ChatInputBarSendButtonNormalStyle1-V4
+{
+    background-color: #f8f8f8;
+    -ios-text-color: #3861a5;
+    -ios-text-alpha: 1.0;
+}
+
+ChatInputBarSendButtonHighlightedStyle1-V4
+{
+    background-color: #f8f8f8;
+    -ios-text-color: #3861a5;
+    -ios-text-alpha: 1.0;
+}
+
+ChatInputBarSendButtonDisabledStyle1-V4
+{   
+    background-color: #f8f8f8;
+    -ios-text-color: #8e8e93;
+    -ios-text-alpha: 1.0;
+}
+
+ChatInputBarSendButtonVoiceTalkNormalStyle1-V4
+{
+    background-color: #f8f8f8;
+}
+
+ChatInputBarSendButtonVoiceTalkDisableStyle1-V4
+{
+    background-color: #f8f8f8;
+}
+
+ChatInputBarSendButtonVoiceMessageNormalStyle1-V4
+{
+    background-color: #f8f8f8;
+}
+
+ChatInputBarSendButtonBotGuideNormalStyle1-V4
+{
+    background-color: #f8f8f8;
+}
+
+ChatInputBarKeyboardMenuButtonNormalStyle1-V4
+{
+
+}
+
+ChatInputBarCloseMenuButtonNormalStyle1-V4
+{
+
+}
+
+ChatInputBarPlusFriendHomeButtonNormalStyle1-V4
+{
+
+}
+
+
+/* TabBarItem */
+TabBarTitleStyle1-V4
+{
+    -ios-text-color: #929292;
+    -ios-text-alpha: 1.0;
+    -ios-text-shadow-color: #ffffff;
+    -ios-text-shadow-alpha: 0.7;
+    -ios-text-shadow-offset: 0px 1px;
+    -ios-selected-text-color: #3861a5;
+    -ios-selected-text-alpha: 1.0;
+    -ios-text-shadow-color: #ffffff;
+    -ios-text-shadow-alpha: 0.7;
+    -ios-selected-text-shadow-offset: 0px 0px;
+}
+
+TabBarItemStyle1-V4
+{ 
+    -ios-background-image: url('bg_tab_bar.png') 0px 0px;
+    -ios-selection-indicator-image: url('bg_tab_bar_highlight.png');
+
+    -ios-friends-normal-icon-image: url('tab_icon_friends.png');
+    -ios-chats-normal-icon-image: url('tab_icon_chats.png');
+    -ios-recommendees-normal-icon-image: url('tab_icon_recommendees.png');
+    -ios-more-normal-icon-image: url('tab_icon_more.png');
+
+    -ios-friends-selected-icon-image: url('tab_icon_friends_highlight.png');
+    -ios-chats-selected-icon-image: url('tab_icon_chats_highlight.png');
+    -ios-recommendees-selected-icon-image: url('tab_icon_recommendees_highlight.png');
+    -ios-more-selected-icon-image: url('tab_icon_more_highlight.png');
+}
+
+RecommendeesFriendsHeaderButtonBarIconStyle1-V4
+{
+-ios-idsearch-icon-image: url('ico_friends_idsearch.png');
+-ios-qrcode-icon-image: url('ico_friends_qrcode.png');
+-ios-shake-icon-image: url('ico_friends_shake.png');
+-ios-plusfriend-icon-image: url('ico_friends_plus.png');
+}
+
+/* 친구 추가 버튼 */
+ButtonStyle6-V4{
+    -ios-background-image: url('btn_1_yellow.png');
+    -ios-image: url('find_icon_add.png');
+    -ios-text-color: #ffffff;
+    -ios-text-alpha: 1.0;
+    -ios-text-shadow-offset: 0px 1px;
+    -ios-text-shadow-color: #3861a5;
+    -ios-text-shadow-alpha: 0.7;
+    -ios-title-edgeinsets: 1px 1px 1px 1px;
+    -ios-background-edgeinsets: 5px 5px 5px 5px;
+}
+
+/* ChatRoomInfo */
+ChatRoomSubMenuStyle1
+{
+    border-color: #adadad;
+    border-alpha: 1.0;
+    
+    -ios-text-color: #3861a5;
+    -ios-text-alpha: 1.0;
+    
+    -ios-highlight-text-color: #3861a5;
+    -ios-highlight-text-alpha: 1.0;
+    
+    -ios-normal-background-color: #f8f8f8;
+    -ios-normal-background-alpha: 1.0;
+    
+    -ios-selected-background-color: #f8f8f8;
+    -ios-selected-background-alpha: 1.0;
+ 
+    -ios-chatsub-alert-icon-image: url('ico_chatsub_alert.png');
+    -ios-chatsub-alert-selected-icon-image: url('ico_chatsub_alert_pressed.png');
+    
+    -ios-chatsub-mute-icon-image: url('ico_chatsub_mute.png');
+    -ios-chatsub-mute-selected-icon-image: url('ico_chatsub_mute_pressed.png');
+
+    -ios-chatsub-favorite-icon-image: url('ico_chatsub_favorite.png');
+    -ios-chatsub-favorite-selected-icon-image: url('ico_chatsub_favorite_pressed.png');
+
+    -ios-chatsub-nonfavorite-icon-image: url('ico_chatsub_nonfavorite.png');
+    -ios-chatsub-nonfavorite-selected-icon-image: url('ico_chatsub_nonfavorite_pressed.png');
+
+    -ios-chatsub-all-icon-image: url('ico_chatsub_all.png');
+    -ios-chatsub-all-selected-icon-image: url('ico_chatsub_all_pressed.png');
+
+    -ios-chatsub-addmember-icon-image: url('ico_chatsub_addmember.png');
+    -ios-chatsub-addmember-selected-icon-image: url('ico_chatsub_addmember_pressed.png');
+
+    -ios-chatsub-leave-icon-image: url('ico_chatsub_leave.png');
+    -ios-chatsub-leave-selected-icon-image: url('ico_chatsub_leave_pressed.png');
+
+    -ios-chatsub-setting-icon-image: url('ico_chatsub_setting.png');
+    -ios-chatsub-setting-selected-icon-image: url('ico_chatsub_setting_pressed.png');
+}
